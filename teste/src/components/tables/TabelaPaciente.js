@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import Axios from 'axios';
-import styles from './TabelaPaciente.module.css';
+import styles from './Tabela.module.css';
 
 export default function TabelaPaciente(){
 
@@ -37,7 +37,7 @@ export default function TabelaPaciente(){
                             <th>Data</th>
                             <th>CPF</th>
                         </tr>
-                        {dados.map((dado)=>{
+                        {dados.map((dado)=>
                             <tr>
                                 <td>{dado.id}</td>
                                 <td>{dado.nome}</td>
@@ -45,7 +45,7 @@ export default function TabelaPaciente(){
                                 <td>{dado.data}</td>
                                 <td>{dado.cpf}</td>
                             </tr>
-                        })}
+                        )}
                     </tbody>
                 </table>
             </div>
