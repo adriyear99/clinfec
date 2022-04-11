@@ -1,0 +1,27 @@
+{
+  "paciente": [
+    {
+      "nome": "Adriano",
+      "sobrenome": "Tavares Andrade",
+      "data": "1999-10-06",
+      "cpf": "10993950469",
+      "id": 1
+    }
+  ],
+  "medico": [
+    {
+      "nome": "Drauzio Varella",
+      "crm": "CRM/SP 123456",
+      "especialidade": "Infectologia",
+      "id": 1
+    }
+  ],
+  "consulta": [
+    {
+      "paciente": "Adriano Tavares Andrade",
+      "medico": "Drauzio Varella",
+      "data": "2022-04-13",
+      "id": 1
+    }
+  ]
+}

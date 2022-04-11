@@ -1,0 +1,21 @@
+.container{
+    margin:0 auto;
+}
+
+.container h1{
+    text-align: center;
+    font-family: 'Montserrat';
+    line-height: 50px;
+}
+
+.container table{
+    border:1px solid black;
+    margin-top:1em;
+}
+
+.container table th{
+    padding:1em;
+    color:#efefef;
+    background-color:#e02102;
+    font-family: 'Montserrat';
+}

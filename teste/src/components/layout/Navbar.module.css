@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e6e0df;
+    padding: 1em;
+    margin-bottom:2em;
+  }
+  
+  .list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .item {
+    margin-right: 1em;
+  }
+  
+  .item a {
+    color: #000;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size:18px;
+  }
+  
+  .item a:hover {
+    color: #e02102;
+  }
+
+  img{
+    height:50px;
+  }

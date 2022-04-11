@@ -1,0 +1,42 @@
+.container{
+    margin:0 auto;
+    text-align: center;
+    padding:2em;
+}
+
+.container h1{
+    font-family: 'Montserrat';
+}
+
+.input{
+    margin:1em;
+}
+
+.input input[type=text],input[type=date]{
+    width:300px;
+    padding:0.8em;
+    border:1px solid red;
+    border-radius:20px;
+    text-align: center;
+}
+
+.input input[type=submit]{
+    width:200px;
+    height:50px;
+    padding:1em;
+    font-family:'Montserrat';
+    border:1px solid #e02102;
+    border-radius: 12px;
+    margin:0.5em;
+}
+
+.input input[type=submit]:hover{
+    cursor:pointer;
+    background-color:#e02102;
+    color:#fff;
+    border:1px solid #fff;
+}
+
+.input input::-webkit-input-placeholder{
+    text-align:center;
+}

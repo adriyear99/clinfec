@@ -1,0 +1,20 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    width:1200px;
+    height:250px;
+    justify-content: center;
+}
+
+.texto{
+    margin-bottom:4em;
+    text-align: center;
+}
+
+.texto h1{
+    font-family: 'Montserrat';
+}
+
+.botoes{
+    text-align: center;
+}
